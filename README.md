@@ -25,7 +25,7 @@ Developed By: GOKUL M
 Reg No: 212222230037
 ```
 ## Write a C program that illustrates two processes communicating using shared memory.
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -144,46 +144,8 @@ int main() {
     return 0;
 }
 ```
-### How to Compile and Run (on Ubuntu/Linux)
-
-1.  **Save the File:** Save the code above as `shared_memory_comm.c`.
-
-2.  **Open Your Terminal:** Navigate to the directory where you saved the file.
-
-3.  **Compile:** You need to link the real-time extensions library (`-lrt`) for `shm_open` and related functions.
-
-    ```bash
-    gcc shared_memory_comm.c -o shared_memory_comm -lrt
-    ```
-
-4.  **Run:**
-
-    ```bash
-    ./shared_memory_comm
-    ```
-
-### Expected Output
-
-You will see output similar to this, demonstrating that the parent writes a message and the child successfully reads it from the shared memory segment:
-
-```
-Shared memory object '/my_shared_memory' created/opened.
-Shared memory size set to 1024 bytes.
-Shared memory mapped into address space.
-
-[Parent Process (Writer)] PID: 12345
-[Parent Process] Writing message to shared memory: "Hello from the parent process via shared memory!"
-[Parent Process] Waiting for child to finish...
-
-[Child Process (Reader)] PID: 12346
-[Child Process] Waiting for parent to write...
-[Child Process] Read from shared memory: "Hello from the parent process via shared memory!"
-[Child Process] Shared memory unmapped and closed.
-[Parent Process] Child process finished.
-[Parent Process] Shared memory unmapped, closed, and unlinked.
 
 
-```
 
 
 
