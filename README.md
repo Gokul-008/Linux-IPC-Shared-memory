@@ -190,9 +190,11 @@ Shared memory mapped into address space.
 
 ## OUTPUT
 
-![319117641-388a0d8f-b4af-43d0-a08a-92cb7188ec14](https://github.com/sabithapaulraj/Linux-IPC-Shared-memory/assets/118343379/09a6887d-9efa-4f6c-b0f1-cebfbf92ea6d)
+<img width="1215" height="527" alt="Screenshot from 2025-10-30 10-33-14" src="https://github.com/user-attachments/assets/d31a3c91-e9db-41e1-8bc0-d520917a7513" />
 
-![319117771-96e1d580-58c9-4c90-a704-a1d0f5cca281](https://github.com/sabithapaulraj/Linux-IPC-Shared-memory/assets/118343379/88576617-5f52-4771-b06a-23c88a146bf7)
+<img width="596" height="286" alt="Screenshot from 2025-10-30 10-33-56" src="https://github.com/user-attachments/assets/9ff9e924-1416-4c45-a71f-a0fa38b7513b" />
+
+
 
 
 
